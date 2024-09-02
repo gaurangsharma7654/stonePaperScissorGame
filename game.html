@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+     MY PAGE 
+        </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <div>GAME</div>
+       <button class="js-reset-button" onclick="
+       reset();
+       ">Reset</button>
+       <div class='images'>
+        <div class="rock">
+            <img src="assets/rock-emoji.png" onclick="
+                playGame('rock');
+                ">
+            ROCK
+           </div>
+           <div class="paper">
+            <img src="assets/paper-emoji.png" onclick="
+            playGame('paper');
+            ">
+            PAPER
+           </div>
+           <div class="scissor">
+            <img src="assets/scissors-emoji.png" onclick="
+            playGame('scissor');
+            ">
+            SCISSORS
+           </div>
+       </div>
+       <div class="results"></div>
+       <div class="scores"></div>
+
+    <script src="index.js"></script>
+        </body>
+    </html>
