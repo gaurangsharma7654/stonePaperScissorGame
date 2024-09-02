@@ -1,0 +1,30 @@
+img{
+    height:50px;
+    width:50px;
+    border: 1px solid grey;
+    border-radius:50%;
+    padding:10px;
+    margin:15px;
+}
+
+.images{
+    display:flex;
+    flex-direction:row;
+   
+}
+
+.results{
+    margin-top: 30px;
+    margin-left:10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.rock ,
+.paper,
+.scissor {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
