@@ -4,6 +4,7 @@ let computerMove ;
 let player;
 
 let score = JSON.parse(localStorage.getItem('score'));
+// add game logic 
 
 if(!score){
      score ={
